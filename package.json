@@ -10,6 +10,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "child_process": "^1.0.2"
+    "child_process": "^1.0.2",
+    "sinon": "^16.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.8",
+    "mocha": "^10.2.0"
   }
 }
