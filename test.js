@@ -2,11 +2,11 @@ const chai = require('chai');
 const expect = chai.expect;
 const { capturePackets, stopCapture } = require('./wireshark.js'); // Replace with the actual path to your package module
 
-describe('Packet Capture (Original Code)', () => {
+describe('Packet Capture', () => {
     let captureProcess;
 
     beforeEach(() => {
-        // Start the packet capture using the original code before each test
+        // Start the packet capture before each test
         captureProcess = capturePackets('Wi-Fi');
     });
 
