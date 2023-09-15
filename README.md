@@ -10,6 +10,12 @@ This package is used to detect the specific interface such as Ethernet, WiFi, LA
 npm i wireshark
 ```
 
+### Installing mocha chai dependencies to be used in test.js file
+
+```bash
+npm install mocha chai --save-dev
+```
+
 ### Execution of test file
 
 ```bash
