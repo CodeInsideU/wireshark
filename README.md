@@ -7,5 +7,11 @@ This package is used to detect the specific interface such as Ethernet, WiFi, LA
 ### Installation
 
 ```bash
-npm install child_process --save
+npm i wireshark
+```
+
+### Execution of test file
+
+```bash
+npx mocha test.js //Your js file
 ```
